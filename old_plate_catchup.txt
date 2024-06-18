@@ -1,0 +1,370 @@
+Plate 1 (KP1)
+  - [A,1] -> Plate 1 [A, 1]
+
+Plate 2 (KP3)
+  - [H, 1] -> Empty
+
+Plate 3 (KP5)
+  - [D, 1] -> Plate 2 [A, 9]
+  - [A, 4] -> Plate 2 [E, 11]
+  - [A, 5] -> Plate 2 [D, 12]
+  - [C, 5] -> Plate 2 [F, 12]
+  - [E, 7] -> Empty
+  - [C, 10] -> Plate 3 [G, 4]
+  - [B, 11] -> Plate 3 [E, 5]
+  - [D, 11] -> Empty
+  - [G, 11] -> Empty
+  - [C, 12] -> Empty
+  - [D, 12] -> Empty
+  - [E, 12] -> Plate 3 [A, 6]
+  - [F, 12] -> Empty
+
+Plate 4 (KP7)
+  - [A-F, 1] -> Empty
+  - [F, 2] -> Plate 3 [G, 6]
+  - [B, 3] -> Plate 3 [C, 7]
+  - [A, 4] -> Empty
+  - [B, 7] -> Plate 3 [C, 10]
+  - [D, 7] -> Plate 3 [D, 10]
+  - [G, 7] -> Empty
+  - [C, 8] -> Plate 3 [H, 10]
+  - [C, 9] -> Plate 3 [G, 11]
+  - [B, 10] -> Plate 3 [F, 12]
+
+Plate 5 (KP9)
+  - [G, 5] -> Empty
+  - [B, 10] -> Plate 4 [E, 10]
+  - [C, 11] -> Plate 4 [E, 11]
+  - [H, 11] -> Plate 4 [A, 12]
+  - [E-F, 12] -> Plate 4 [F-G, 12]
+
+Plate 6 (KP11)
+  - [A, 7] -> Plate 5 [G, 5]
+
+Plate 7 (KP13)
+  - [C, 1] -> Plate 5 [G, 10]
+  - [D, 1] -> Empty
+  - [G, 1] -> Empty
+  - [F, 5] -> Empty
+  - [B, 7] -> Plate 6 [B, 2]
+
+Plate 8 (KP15)
+  - [D, 1] -> Empty
+  - [A, 4] -> Plate 6 [H, 8]
+  - [E, 10] -> Plate 7 [H, 1]
+  - [F, 10] -> Plate 7 [A, 2]
+  - [H, 10] -> Plate 7 [C, 2]
+  - [D, 11] -> Plate 7 [G, 2]
+  - [F, 11] -> Empty
+  - [G, 11] -> Empty
+  - [E, 12] -> Plate 7 [E, 3]
+
+Plate 9 (KP17)
+  - [E, 6] -> Plate 7 [C, 8]
+  - [B, 7] -> Plate 7 [G, 8]
+  - [E, 7] -> Plate 7 [A, 9]
+  - [B, 8] -> Plate 7 [E, 9]
+  - [E, 8] -> Plate 7 [H, 9]
+  - [C-E, 9] -> Empty
+  - [F, 9] -> Plate [F, 10]
+  - [B, 10] -> Empty
+  - [C-E, 10] -> Plate 7 [B-D, 11]
+  - [B, 11] -> Empty 
+  - [C, 11] -> Plate 7 [G, 11]
+  - [B, 12] -> Plate 7 [C, 12] 
+  - [C-D, 12] -> Empty
+
+Plate 10 (KP19)
+  - None
+
+Plate 11 (KP21)
+  - [D-E, 5] -> Plate 9 [A-B, 2]
+  - [D-E, 6] -> Plate 9 [A-B, 3]
+  - [D, 7] -> Empty
+  - [E, 7] -> Plate 9 [H, 3] 
+  - [C, 8] -> Empty
+  - [D-E, 8] -> Plate 9 [D-E, 4] 
+  - [E-F, 9] -> Plate 9 [C-D, 5]
+  - [F, 11] -> Plate 9 [A, 7]
+  - [H, 11] -> Plate 9 [B, 7] 
+Overlap
+  - [E, 6] -> Plate 9 [B, 3]
+  - [H, 10] -> Plate 9 [D, 6]
+  - [D, 11] -> wildtype
+  - [H, 11] -> Plate 9 [B, 7]
+
+Plate 12 (KP23)
+  - [C-D, 1] -> Plate 9 [B-C, 8]
+  - [E, 2] -> Plate 9 [H, 8]
+  - [C, 4] -> Plate 9 [E, 10]
+  - [C, 5] -> Plate 9 [A, 11]
+  - [E, 5] -> Plate 9 [C, 11]
+  - [D, 6] -> Plate 9 [H, 11]
+  - [E, 6] -> Empty
+  - [C-D, 7] -> Plate 9 [B-C, 12]
+  - [E, 7] -> Empty
+  - [A-B, 8] -> Plate 9 [G-H, 12]
+  - [E, 8] -> Plate 10 [C, 1]
+  - [E, 9] -> Plate 10 [A, 2]
+
+Plate 13 (KP25)
+  - [A, 1] -> Empty
+  - [H, 1] -> Plate 10 [B, 5]
+  - [D, 4] -> Plate 10 [H, 6]
+  - [E-F, 4] -> Plate 10 [A-B, 7]
+  - [C, 5] -> Plate 10 [F, 7]
+  - [D, 5] -> Empty
+  - [E, 5] -> Plate 10 [G, 7]
+  - [D, 6] -> Empty
+  - [B, 7] -> Plate 10 [A, 9]
+  - [F-G, 7] -> Plate 10 [D-E, 9]
+  - [D, 7] -> Plate 10 [C, 9]
+  - [E, 8] -> Plate 10 [H, 9]
+  - [H, 9] -> Plate 10 [A, 11]
+  - [H, 10] -> Plate 10 [A, 12]
+  - [F, 11] -> Plate 10 [D, 12]
+  - [F, 12] -> Plate 11 [B, 1]
+
+Plate 14 (KP27)
+  - [A, 1] -> Plate 11 [D, 1]
+  - [G, 1] -> Plate 11 [G, 1]
+  - [H, 5] -> Empty
+  - [C-D, 8] -> Plate 11 [D-E, 6]
+  - [D, 9] -> Empty
+  - [C, 10] -> Plate 11 [B, 8]
+  - [F, 10] -> Empty
+  - [D, 11] -> Empty
+  - [D-E, 12] -> Plate 11 [G-H, 9]
+  - [F, 12] -> Plate 11 [A, 10]
+  - [H, 12] -> Plate 11 [B, 10]
+
+Plate 15 (KP29)
+  - [D, 5] -> Empty
+  - [D-E, 6] -> Plate 12 [F-G, 2]
+  - [D-E, 7] -> Plate 12 [E-F, 3]
+  - [C-D, 8] -> Plate 12 [C-D, 4]
+  - [E, 8] -> None
+  - [D, 9] -> Plate 12 [C, 5]
+
+Plate 16 (KP31)
+  - [B, 10] -> Plate 13 [H, 2]
+  - [C, 10] -> Plate 13 [A, 3]
+  - [C, 11] -> Plate 13 [D, 3]
+  - [A, 12] -> Plate 13 [A, 4]
+  - [E, 12] -> Plate 13 [B, 4]
+
+Plate 17 (KP33)
+  - [A, 8] -> Plate 13 [C, 11]
+  - [E, 8] -> Plate 13 [G, 11]
+  - [D, 9] -> Plate 13 [F, 12]
+  - [D, 10] -> Plate 14 [F, 1]
+  - [D, 11] -> Plate 14 [F, 2]
+  - [F, 11] -> Plate 14 [H, 2]
+  - [D-F, 12] -> Plate 14 [F-H, 3]
+  - [H, 12] -> Plate 14 [B, 4]
+
+Plate 18 (KP35)
+  - [B, 5] -> wild type Plate 14 [C, 8]
+  - [E, 9] -> Plate 14 [C, 12]
+  - [B-C, 11] -> Plate 15 [G-H, 1]
+
+Plate 19 (KP37)
+  - [A, 8] -> Plate 15 [E, 10]
+  - [G, 8] -> Plate 15 [C, 11]
+  - [A-B, 10] -> Plate 15 [E-F, 12]
+  - [E, 11] -> Plate 16 [H, 1]
+  - [G, 11] -> Plate 16 [B, 2]
+  - [E, 12] -> Plate 16 [H, 2]
+  - [F, 12] -> Empty
+
+Plate 20 (KP39)
+  - [A, 7] -> Plate 16 [H, 8]
+  - [C, 8] -> Plate 16 [B, 10]
+  - [B, 9] -> Empty
+  - [E, 9] -> Plate 16 [B, 11]
+  - [C-D, 10] -> Empty
+
+Plate 21 (KP41)
+  - None
+
+Plate 22 (KP43)
+  - [B-C, 8] -> Plate 18 [B-C, 8]
+  - [H, 9] -> Plate 18 [G, 9]
+  - [A, 10] -> Plate 18 [H, 9]
+  - [B-C, 10] -> Plate 18 [A-B, 10] 
+  - [C, 11] -> Plate 18 [B, 11]
+  - [E, 11] -> wild_type Plate 18 [D, 11]
+  - [F, 11] -> Plate 18 [E, 11]
+  - [H, 11] -> Empty
+  - [D-G, 12] -> Plate 18 [C-F, 12]
+
+Plate 23 (KP45)
+  - [A, 6] -> Plate 19 [H, 5]
+  - [C, 6] -> Plate 19 [B, 6]
+  - [A, 7] -> Plate 19 [F, 6]
+  - [E, 8] -> Plate 19 [A, 8]
+  - [C, 10] -> Plate 19 [G, 9]
+  - [D-E, 12] -> Plate 19 [G-H, 11]
+
+Plate 24 (KP47)
+  - [D, 3] -> Plate 20 [G, 2]
+  - [D-E, 6] -> Plate 20 [F-G, 5]
+  - [E, 7] -> Plate 20 [G, 6]
+
+Plate 25 (KP49)
+  - [D, 2] -> Plate 21 [E, 1]
+  - [C, 12] -> Plate 21 [C, 11]
+
+Plate 26 (KP51)
+  - [B ,5] -> Plate 22 [B, 4]
+  - [B, 6] -> Plate 22 [B, 5]
+  - [E, 10] -> Plate 22 [E, 9]
+  - [B, 11] -> Plate 22 [B, 10]
+  - [F, 11] -> Plate 22 [F, 10]
+  - [C-E, 12] -> Plate 22 [C-E, 11]
+
+Plate 27 (KP53)
+  - [A, 5] -> Plate 23 [H, 2]
+  - [E, 5] -> Plate 23 [D, 3]
+
+Plate 28 (KP55)
+  - None
+
+Plate 29 (KP57)
+  - [D-E, 7] -> Plate 24 [A-B, 5] 
+  - [E, 8] -> Plate 24 [B, 6]
+  - [D-E, 9] -> Plate 24 [G-H, 6]
+  - [C, 10] -> Plate 24 [F, 7]
+  - [F, 10] -> Plate 24 [A, 8]
+  - [B-C, 11] -> Plate 24 [E-F, 8]
+  - [B-F, 12] -> Plate 24 [D-H, 9]
+
+Plate 30 (KP59)
+  - [D, 1] -> Plate 25 [D, 10]
+
+Plate 31 (KP61)
+  - [C, 3] -> Plate 26 [F, 11]
+  - [C, 4] -> Plate 26 [F, 12]
+  - [H, 7] -> Plate 27 [A, 4]
+  - [B, 12] -> Plate 27 [C, 8]
+
+Plate 32 (KP63)
+  - [F, 9] -> Plate 28 [E, 5]
+  - [E, 10] -> Plate 28 [D, 6]
+  - [H, 12] -> Plate 28 [G, 8]
+
+Plate 33 (KP65)
+  - None
+
+Plate 34 (KP67)
+  - [B, 1] -> Plat 29 [D, 7]
+  - [D, 1] -> Plate 29 [E, 7]
+  - [E-F, 1] -> None
+  - [A, 4] -> wild_type Plate 29 [D, 9]
+  - [B, 4] -> Plate 29 [E, 9]
+  - [C-D, 5] -> Empty
+  - [H, 7] -> Plate 29 [C, 12]
+  - [B-C, 10] -> Empty
+  - [D-G, 10] -> Plate 30 [A-D, 2]
+  - [A, 11] -> Plate 30 [F, 2]
+  - [C, 11] -> Plate 30 [H, 2]
+  - [D, 11] -> Empty
+  - [F-H, 11] -> Plate 30 [B-D, 3]
+  - [E, 12] -> Plate 30 [A, 4]
+  - [F, 12] -> Empty
+
+Plate 35 (KP69)
+  - [E, 2] -> Empty
+  - [A, 3] -> Plate 30 [F, 5]
+  - [C, 4] -> Plate 30 [E, 6]
+  - [B, 7] -> Plate 30 [E, 8]
+  - [D, 9] -> Plate 30 [E, 10]
+  - [D-E, 10] -> Plate 30 [E-F, 11]
+  - [A-B, 11] -> Plate 30 [B-C, 12]
+  - [A, 12] -> Plate 31 [A, 1]
+  - [D, 12] -> Plate 31 [D, 1]
+  - [E, 12] -> Empty
+
+Plate 36 (KP71)
+  - None
+
+Plate 37 (KP73)
+  - [A, 4] -> Plate 32 [A, 2]
+  - [C, 7] -> Plate 32 [H, 4]
+  - [C-D, 9] -> Plate 32 [G-H, 6]
+  - [B, 10] -> Plate 32 [E, 7]
+  - [D, 10] -> Plate 32 [F, 7]
+  - [E, 10] -> Empty
+  - [B, 12] -> Plate 32 [C, 9]
+  - [C, 12] -> Empty
+  - [F, 12] -> Plate 32 [F, 9]
+
+Plate 38 (KP75)
+  - [D, 5] -> Plate 33 [B, 2]
+  - [E, 7] -> Plate 33 [B, 4]
+  - [C, 8] -> Empty
+  - [C, 9] -> Plate 33 [G, 5]
+  - [D, 9] -> wild_type Plate 33 [H, 5]
+  - [B, 11] -> Plate 33 [F, 7]
+
+Plate 39 (KP77)
+  - None
+
+Plate 40 (KP79)
+  - [A, 11] -> Plate 35 [A, 5]
+  - [A, 12] -> wild_type Plate 35 [F, 5]
+  - [C, 12] -> Plate 35 [G, 5]
+  - [H, 12] -> Plate 35 [D, 6]
+
+Plate 41 (KP81)
+  - [D, 2] -> Plate 35 [H, 7]
+  - [B, 3] -> Plate 35 [D, 8]
+  - [D, 6] -> wild_type Plate 35 [F, 11]
+  - [D-E, 7] -> Plate 35 [F-G, 12]
+
+Plate 42 (KP83)
+  - [B, 7] -> Plate 36 [A, 12]
+  - [A, 8] -> Plate 36 [H, 12]
+  - [A, 10] -> Plate 37 [H, 2]
+  - [B-D, 10] -> Plate 37 [A-C, 3]
+  - [H, 10] -> Plate 37 [G, 3] 
+  - [A, 11] -> Plate 37 [H, 3]
+  - [D-E, 11] -> Plate 37 [C-D, 4]
+  - [G, 11] -> wild_type Plate 37 [F, 4]
+  - [H, 11] -> Plate 37 [G, 4]
+  - [E, 12] -> Plate 37 [D, 5]
+  - [H, 12] -> Empty
+
+Plate 43 (KP85)
+  - [E, 3] -> Plate 37 [C, 8]
+  - [G, 7] -> Plate 37 [E, 12]
+  - [E, 8] -> Empty
+  - [E, 10] -> Plate 38 [B, 3]
+  - [C, 12] -> Plate 38 [F, 4]
+
+Plate 44 (KP87)
+  - [C, 2] -> Plate 38 [D, 6]
+  - [B, 3] -> Plate 38 [C, 7]
+  - [A, 6] -> Plate 38 [A, 10]
+  - [F, 12] -> Plate 39 [B, 4]
+
+Plate 45 (KP89)
+  - None
+
+Plate 46 (KP91)
+  - None
+
+Plate 47 (KP93)
+  - [A, 1] -> Plate 40 [H, 4]
+  - [C, 1] -> Plate 40 [B, 5]
+  - [E, 3] -> Plate 40 [B, 7]
+
+Plate 48 (KP95)
+  - None
+
+Plate 49 (KPA)
+  - [E, 7] -> Plate 40 [E, 12]
+  - [C-D, 12] -> Plate 41 [G-H, 3]
+
+Plat 50 (KPB)
+  - [H, 2] -> Plate 41 [A, 6]
